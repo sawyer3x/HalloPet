@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247484661E909241006BA1E7 /* HPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247484641E909241006BA1E7 /* HPLoginViewController.swift */; };
+		247484671E909241006BA1E7 /* HPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247484651E909241006BA1E7 /* HPLoginViewController.xib */; };
+		247484691E9096C0006BA1E7 /* HPConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247484681E9096C0006BA1E7 /* HPConstant.swift */; };
+		2474846C1E90990B006BA1E7 /* HPMainTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2474846B1E90990B006BA1E7 /* HPMainTabBarControllerViewController.swift */; };
+		247484731E909F27006BA1E7 /* HPPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247484711E909F27006BA1E7 /* HPPetViewController.swift */; };
+		247484741E909F27006BA1E7 /* HPPetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247484721E909F27006BA1E7 /* HPPetViewController.xib */; };
+		247484811E90A131006BA1E7 /* HPFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2474847F1E90A131006BA1E7 /* HPFriendsViewController.swift */; };
+		247484821E90A131006BA1E7 /* HPFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247484801E90A131006BA1E7 /* HPFriendsViewController.xib */; };
+		247484851E90A13F006BA1E7 /* HPMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247484831E90A13F006BA1E7 /* HPMineViewController.swift */; };
+		247484861E90A13F006BA1E7 /* HPMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247484841E90A13F006BA1E7 /* HPMineViewController.xib */; };
+		2474848A1E90A1C4006BA1E7 /* HPBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247484891E90A1C4006BA1E7 /* HPBaseNavigationController.swift */; };
+		24766B2F1E8FA2D1003649D6 /* HPAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24766B2E1E8FA2D1003649D6 /* HPAppDelegate.swift */; };
+		24766B371E8FA2D1003649D6 /* HalloPet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24766B351E8FA2D1003649D6 /* HalloPet.xcdatamodeld */; };
+		24766B471E8FA2D2003649D6 /* HalloPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24766B461E8FA2D2003649D6 /* HalloPetTests.swift */; };
+		24766B521E8FA2D2003649D6 /* HalloPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24766B511E8FA2D2003649D6 /* HalloPetUITests.swift */; };
+		24766B6C1E8FA3C2003649D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24766B601E8FA3C2003649D6 /* Assets.xcassets */; };
+		24766B8C1E8FA3E8003649D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24766B831E8FA3E8003649D6 /* LaunchScreen.storyboard */; };
+		24766B8E1E8FA77C003649D6 /* loginImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 24766B8D1E8FA77C003649D6 /* loginImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24766B431E8FA2D2003649D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24766B231E8FA2D1003649D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24766B2A1E8FA2D1003649D6;
+			remoteInfo = HalloPet;
+		};
+		24766B4E1E8FA2D2003649D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24766B231E8FA2D1003649D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24766B2A1E8FA2D1003649D6;
+			remoteInfo = HalloPet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		247484641E909241006BA1E7 /* HPLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPLoginViewController.swift; sourceTree = "<group>"; };
+		247484651E909241006BA1E7 /* HPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPLoginViewController.xib; sourceTree = "<group>"; };
+		247484681E9096C0006BA1E7 /* HPConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPConstant.swift; sourceTree = "<group>"; };
+		2474846B1E90990B006BA1E7 /* HPMainTabBarControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPMainTabBarControllerViewController.swift; sourceTree = "<group>"; };
+		247484711E909F27006BA1E7 /* HPPetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPPetViewController.swift; sourceTree = "<group>"; };
+		247484721E909F27006BA1E7 /* HPPetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPPetViewController.xib; sourceTree = "<group>"; };
+		2474847F1E90A131006BA1E7 /* HPFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPFriendsViewController.swift; sourceTree = "<group>"; };
+		247484801E90A131006BA1E7 /* HPFriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPFriendsViewController.xib; sourceTree = "<group>"; };
+		247484831E90A13F006BA1E7 /* HPMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPMineViewController.swift; sourceTree = "<group>"; };
+		247484841E90A13F006BA1E7 /* HPMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPMineViewController.xib; sourceTree = "<group>"; };
+		247484891E90A1C4006BA1E7 /* HPBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPBaseNavigationController.swift; sourceTree = "<group>"; };
+		24766B2B1E8FA2D1003649D6 /* HalloPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalloPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24766B2E1E8FA2D1003649D6 /* HPAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPAppDelegate.swift; sourceTree = "<group>"; };
+		24766B361E8FA2D1003649D6 /* HalloPet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HalloPet.xcdatamodel; sourceTree = "<group>"; };
+		24766B3D1E8FA2D1003649D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		24766B421E8FA2D2003649D6 /* HalloPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalloPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24766B461E8FA2D2003649D6 /* HalloPetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloPetTests.swift; sourceTree = "<group>"; };
+		24766B481E8FA2D2003649D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24766B4D1E8FA2D2003649D6 /* HalloPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalloPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24766B511E8FA2D2003649D6 /* HalloPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloPetUITests.swift; sourceTree = "<group>"; };
+		24766B531E8FA2D2003649D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24766B601E8FA3C2003649D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24766B841E8FA3E8003649D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24766B8D1E8FA77C003649D6 /* loginImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24766B281E8FA2D1003649D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24766B3F1E8FA2D2003649D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24766B4A1E8FA2D2003649D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2474846D1E909F0A006BA1E7 /* Pet */ = {
+			isa = PBXGroup;
+			children = (
+				2474846E1E909F0A006BA1E7 /* Controller */,
+				2474846F1E909F0A006BA1E7 /* Model */,
+				247484701E909F0A006BA1E7 /* View */,
+			);
+			path = Pet;
+			sourceTree = "<group>";
+		};
+		2474846E1E909F0A006BA1E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				247484711E909F27006BA1E7 /* HPPetViewController.swift */,
+				247484721E909F27006BA1E7 /* HPPetViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2474846F1E909F0A006BA1E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		247484701E909F0A006BA1E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		247484771E90A118006BA1E7 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				247484781E90A118006BA1E7 /* Controller */,
+				247484791E90A118006BA1E7 /* Model */,
+				2474847A1E90A118006BA1E7 /* View */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		247484781E90A118006BA1E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2474847F1E90A131006BA1E7 /* HPFriendsViewController.swift */,
+				247484801E90A131006BA1E7 /* HPFriendsViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		247484791E90A118006BA1E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2474847A1E90A118006BA1E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2474847B1E90A118006BA1E7 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2474847C1E90A118006BA1E7 /* Controller */,
+				2474847D1E90A118006BA1E7 /* Model */,
+				2474847E1E90A118006BA1E7 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		2474847C1E90A118006BA1E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				247484831E90A13F006BA1E7 /* HPMineViewController.swift */,
+				247484841E90A13F006BA1E7 /* HPMineViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2474847D1E90A118006BA1E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2474847E1E90A118006BA1E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24766B221E8FA2D1003649D6 = {
+			isa = PBXGroup;
+			children = (
+				24766B2D1E8FA2D1003649D6 /* HalloPet */,
+				24766B451E8FA2D2003649D6 /* HalloPetTests */,
+				24766B501E8FA2D2003649D6 /* HalloPetUITests */,
+				24766B2C1E8FA2D1003649D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24766B2C1E8FA2D1003649D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24766B2B1E8FA2D1003649D6 /* HalloPet.app */,
+				24766B421E8FA2D2003649D6 /* HalloPetTests.xctest */,
+				24766B4D1E8FA2D2003649D6 /* HalloPetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24766B2D1E8FA2D1003649D6 /* HalloPet */ = {
+			isa = PBXGroup;
+			children = (
+				24766B2E1E8FA2D1003649D6 /* HPAppDelegate.swift */,
+				24766B731E8FA3E8003649D6 /* Login */,
+				2474846D1E909F0A006BA1E7 /* Pet */,
+				247484771E90A118006BA1E7 /* Friends */,
+				2474847B1E90A118006BA1E7 /* Mine */,
+				24766B7B1E8FA3E8003649D6 /* Main */,
+				24766B821E8FA3E8003649D6 /* Other */,
+				24766B5F1E8FA3C2003649D6 /* Resource */,
+				24766B611E8FA3C2003649D6 /* Tools */,
+			);
+			path = HalloPet;
+			sourceTree = "<group>";
+		};
+		24766B451E8FA2D2003649D6 /* HalloPetTests */ = {
+			isa = PBXGroup;
+			children = (
+				24766B461E8FA2D2003649D6 /* HalloPetTests.swift */,
+				24766B481E8FA2D2003649D6 /* Info.plist */,
+			);
+			path = HalloPetTests;
+			sourceTree = "<group>";
+		};
+		24766B501E8FA2D2003649D6 /* HalloPetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24766B511E8FA2D2003649D6 /* HalloPetUITests.swift */,
+				24766B531E8FA2D2003649D6 /* Info.plist */,
+			);
+			path = HalloPetUITests;
+			sourceTree = "<group>";
+		};
+		24766B5F1E8FA3C2003649D6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				24766B601E8FA3C2003649D6 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		24766B611E8FA3C2003649D6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		24766B731E8FA3E8003649D6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				24766B741E8FA3E8003649D6 /* Controller */,
+				24766B771E8FA3E8003649D6 /* Model */,
+				24766B791E8FA3E8003649D6 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		24766B741E8FA3E8003649D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				247484641E909241006BA1E7 /* HPLoginViewController.swift */,
+				247484651E909241006BA1E7 /* HPLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24766B771E8FA3E8003649D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24766B791E8FA3E8003649D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24766B7B1E8FA3E8003649D6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				24766B7C1E8FA3E8003649D6 /* Controller */,
+				24766B7F1E8FA3E8003649D6 /* Model */,
+				24766B801E8FA3E8003649D6 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		24766B7C1E8FA3E8003649D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2474846B1E90990B006BA1E7 /* HPMainTabBarControllerViewController.swift */,
+				247484891E90A1C4006BA1E7 /* HPBaseNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24766B7F1E8FA3E8003649D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24766B801E8FA3E8003649D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24766B821E8FA3E8003649D6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				24766B3D1E8FA2D1003649D6 /* Info.plist */,
+				24766B831E8FA3E8003649D6 /* LaunchScreen.storyboard */,
+				24766B8D1E8FA77C003649D6 /* loginImage.png */,
+				24766B351E8FA2D1003649D6 /* HalloPet.xcdatamodeld */,
+				247484681E9096C0006BA1E7 /* HPConstant.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24766B2A1E8FA2D1003649D6 /* HalloPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24766B561E8FA2D2003649D6 /* Build configuration list for PBXNativeTarget "HalloPet" */;
+			buildPhases = (
+				24766B271E8FA2D1003649D6 /* Sources */,
+				24766B281E8FA2D1003649D6 /* Frameworks */,
+				24766B291E8FA2D1003649D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HalloPet;
+			productName = HalloPet;
+			productReference = 24766B2B1E8FA2D1003649D6 /* HalloPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24766B411E8FA2D2003649D6 /* HalloPetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24766B591E8FA2D2003649D6 /* Build configuration list for PBXNativeTarget "HalloPetTests" */;
+			buildPhases = (
+				24766B3E1E8FA2D2003649D6 /* Sources */,
+				24766B3F1E8FA2D2003649D6 /* Frameworks */,
+				24766B401E8FA2D2003649D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24766B441E8FA2D2003649D6 /* PBXTargetDependency */,
+			);
+			name = HalloPetTests;
+			productName = HalloPetTests;
+			productReference = 24766B421E8FA2D2003649D6 /* HalloPetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24766B4C1E8FA2D2003649D6 /* HalloPetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24766B5C1E8FA2D2003649D6 /* Build configuration list for PBXNativeTarget "HalloPetUITests" */;
+			buildPhases = (
+				24766B491E8FA2D2003649D6 /* Sources */,
+				24766B4A1E8FA2D2003649D6 /* Frameworks */,
+				24766B4B1E8FA2D2003649D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24766B4F1E8FA2D2003649D6 /* PBXTargetDependency */,
+			);
+			name = HalloPetUITests;
+			productName = HalloPetUITests;
+			productReference = 24766B4D1E8FA2D2003649D6 /* HalloPetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24766B231E8FA2D1003649D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HP;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sawyer3x;
+				TargetAttributes = {
+					24766B2A1E8FA2D1003649D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8JUQ8R9527;
+						ProvisioningStyle = Automatic;
+					};
+					24766B411E8FA2D2003649D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8JUQ8R9527;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24766B2A1E8FA2D1003649D6;
+					};
+					24766B4C1E8FA2D2003649D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8JUQ8R9527;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24766B2A1E8FA2D1003649D6;
+					};
+				};
+			};
+			buildConfigurationList = 24766B261E8FA2D1003649D6 /* Build configuration list for PBXProject "HalloPet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24766B221E8FA2D1003649D6;
+			productRefGroup = 24766B2C1E8FA2D1003649D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24766B2A1E8FA2D1003649D6 /* HalloPet */,
+				24766B411E8FA2D2003649D6 /* HalloPetTests */,
+				24766B4C1E8FA2D2003649D6 /* HalloPetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24766B291E8FA2D1003649D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24766B8E1E8FA77C003649D6 /* loginImage.png in Resources */,
+				247484861E90A13F006BA1E7 /* HPMineViewController.xib in Resources */,
+				247484741E909F27006BA1E7 /* HPPetViewController.xib in Resources */,
+				247484821E90A131006BA1E7 /* HPFriendsViewController.xib in Resources */,
+				24766B8C1E8FA3E8003649D6 /* LaunchScreen.storyboard in Resources */,
+				247484671E909241006BA1E7 /* HPLoginViewController.xib in Resources */,
+				24766B6C1E8FA3C2003649D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24766B401E8FA2D2003649D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24766B4B1E8FA2D2003649D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24766B271E8FA2D1003649D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2474848A1E90A1C4006BA1E7 /* HPBaseNavigationController.swift in Sources */,
+				247484811E90A131006BA1E7 /* HPFriendsViewController.swift in Sources */,
+				247484691E9096C0006BA1E7 /* HPConstant.swift in Sources */,
+				2474846C1E90990B006BA1E7 /* HPMainTabBarControllerViewController.swift in Sources */,
+				24766B2F1E8FA2D1003649D6 /* HPAppDelegate.swift in Sources */,
+				247484661E909241006BA1E7 /* HPLoginViewController.swift in Sources */,
+				247484851E90A13F006BA1E7 /* HPMineViewController.swift in Sources */,
+				247484731E909F27006BA1E7 /* HPPetViewController.swift in Sources */,
+				24766B371E8FA2D1003649D6 /* HalloPet.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24766B3E1E8FA2D2003649D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24766B471E8FA2D2003649D6 /* HalloPetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24766B491E8FA2D2003649D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24766B521E8FA2D2003649D6 /* HalloPetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24766B441E8FA2D2003649D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24766B2A1E8FA2D1003649D6 /* HalloPet */;
+			targetProxy = 24766B431E8FA2D2003649D6 /* PBXContainerItemProxy */;
+		};
+		24766B4F1E8FA2D2003649D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24766B2A1E8FA2D1003649D6 /* HalloPet */;
+			targetProxy = 24766B4E1E8FA2D2003649D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24766B831E8FA3E8003649D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24766B841E8FA3E8003649D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24766B541E8FA2D2003649D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24766B551E8FA2D2003649D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24766B571E8FA2D2003649D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8JUQ8R9527;
+				INFOPLIST_FILE = HalloPet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sawyer.HalloPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		24766B581E8FA2D2003649D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8JUQ8R9527;
+				INFOPLIST_FILE = HalloPet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sawyer.HalloPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		24766B5A1E8FA2D2003649D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8JUQ8R9527;
+				INFOPLIST_FILE = HalloPetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sawyer.HalloPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HalloPet.app/HalloPet";
+			};
+			name = Debug;
+		};
+		24766B5B1E8FA2D2003649D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8JUQ8R9527;
+				INFOPLIST_FILE = HalloPetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sawyer.HalloPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HalloPet.app/HalloPet";
+			};
+			name = Release;
+		};
+		24766B5D1E8FA2D2003649D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8JUQ8R9527;
+				INFOPLIST_FILE = HalloPetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sawyer.HalloPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HalloPet;
+			};
+			name = Debug;
+		};
+		24766B5E1E8FA2D2003649D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8JUQ8R9527;
+				INFOPLIST_FILE = HalloPetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sawyer.HalloPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HalloPet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24766B261E8FA2D1003649D6 /* Build configuration list for PBXProject "HalloPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24766B541E8FA2D2003649D6 /* Debug */,
+				24766B551E8FA2D2003649D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24766B561E8FA2D2003649D6 /* Build configuration list for PBXNativeTarget "HalloPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24766B571E8FA2D2003649D6 /* Debug */,
+				24766B581E8FA2D2003649D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24766B591E8FA2D2003649D6 /* Build configuration list for PBXNativeTarget "HalloPetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24766B5A1E8FA2D2003649D6 /* Debug */,
+				24766B5B1E8FA2D2003649D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24766B5C1E8FA2D2003649D6 /* Build configuration list for PBXNativeTarget "HalloPetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24766B5D1E8FA2D2003649D6 /* Debug */,
+				24766B5E1E8FA2D2003649D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24766B351E8FA2D1003649D6 /* HalloPet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24766B361E8FA2D1003649D6 /* HalloPet.xcdatamodel */,
+			);
+			currentVersion = 24766B361E8FA2D1003649D6 /* HalloPet.xcdatamodel */;
+			name = HalloPet.xcdatamodeld;
+			path = ../HalloPet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 24766B231E8FA2D1003649D6 /* Project object */;
+}
