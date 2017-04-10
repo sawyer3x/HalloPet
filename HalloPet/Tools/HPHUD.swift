@@ -7,15 +7,18 @@
 //
 
 import UIKit
+import MBProgressHUD
 
 class HPHUD: MBProgressHUD {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    //MARK: - 对外提供的类方法，提示文字信息
+    class func showMessage(_ message: String, superView: UIView, hideDelay: TimeInterval, animated: Bool) -> HPHUD? {
+        let hud = showAdded(to: superView, animated: animated)
+        hud?.mode = MBProgressHUDMode.text;
+        hud?.labelText = NSLocalizedString(message, comment: "HUD message title")
+        hud?.hide(true, afterDelay: hideDelay)
+        hud?.backgroundColor = UIColor.init(white: 0, alpha: 0.1)
+        return hud
     }
-    */
 
 }

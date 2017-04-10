@@ -10,26 +10,70 @@ import UIKit
 
 class HPPetViewController: UIViewController {
 
+    ///对外提供的类工厂方法
+    class func instance() -> HPPetViewController {
+        let vc = HPPetViewController()
+        return vc
+    }
+    
+    //MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //初始化UI
+        setupUI()
+        
+        //设置导航栏两边按钮
+        setupNavBarItem()
+        
+        //设置一般通知监听
+        setupNormalMonitorNotification()
+
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //初始化UI
+    fileprivate func setupUI() {
+        //设置标题
+        navigationItem.title = "遛宠"
+        
+        //设置地图的view
+        setupMapView()
+        
+        //设置buttonView
+        setupButtonView()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //设置导航栏两边按钮
+    fileprivate func setupNavBarItem() {
+        let rankBtn = UIButton()
+        rankBtn.setImage(UIImage(named: "ranking"), for: UIControlState())
+        rankBtn.sizeToFit()
+        //TODO: - 左右按钮的功能
+        //        conSearchBtn.addTarget(self, action: #selector(SAMStockViewController.searchBtnClick), for: .touchUpInside)
+        
+        let historyBtn = UIButton()
+        historyBtn.setImage(UIImage(named: "history"), for: UIControlState())
+        historyBtn.sizeToFit()
+        //TODO: - 左右按钮的功能
+        //        conSearchBtn.addTarget(self, action: #selector(SAMStockViewController.searchBtnClick), for: .touchUpInside)
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(customView: rankBtn)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: historyBtn)
     }
-    */
+    
+    //设置一般通知监听
+    fileprivate func setupNormalMonitorNotification() {
+        
+    }
+    
+    //设置地图的view
+    fileprivate func setupMapView() {
+    
+    }
+    
+    //设置buttonView
+    fileprivate func setupButtonView() {
+        
+    }
 
 }

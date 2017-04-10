@@ -10,26 +10,55 @@ import UIKit
 
 class HPFriendsViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    ///对外提供的类工厂方法
+    class func instance() -> HPPetViewController {
+        let vc = HPPetViewController()
+        return vc
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //MARK: - viewDidLoad
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        //初始化UI
+        setupUI()
+        
+        //设置导航栏按钮
+        setupNavBarItem()
+        
+        //设置一般通知监听
+//        setupNormalMonitorNotification()
+        
     }
-    */
+    
+    //初始化UI
+    fileprivate func setupUI() {
+        //设置标题
+        navigationItem.title = "遛宠"
+        
+        //设置地图的view
+//        setupMapView()
+        
+        //设置buttonView
+//        setupButtonView()
+    }
+    
+    //设置导航栏两边按钮
+    fileprivate func setupNavBarItem() {
+        let rankBtn = UIButton()
+        rankBtn.setImage(UIImage(named: "ranking"), for: UIControlState())
+        rankBtn.sizeToFit()
+        //TODO: - 左右按钮的功能
+        //        conSearchBtn.addTarget(self, action: #selector(SAMStockViewController.searchBtnClick), for: .touchUpInside)
+        
+        let historyBtn = UIButton()
+        historyBtn.setImage(UIImage(named: "history"), for: UIControlState())
+        historyBtn.sizeToFit()
+        //TODO: - 左右按钮的功能
+        //        conSearchBtn.addTarget(self, action: #selector(SAMStockViewController.searchBtnClick), for: .touchUpInside)
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(customView: rankBtn)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: historyBtn)
+    }
 
 }

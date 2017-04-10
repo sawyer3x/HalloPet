@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240E3CC61E974018002A8B01 /* HPFriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E3CC41E974018002A8B01 /* HPFriendsTableViewCell.swift */; };
+		240E3CC71E974018002A8B01 /* HPFriendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 240E3CC51E974018002A8B01 /* HPFriendsTableViewCell.xib */; };
+		240E3CCA1E976D3E002A8B01 /* HPRankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E3CC81E976D3E002A8B01 /* HPRankingViewController.swift */; };
+		240E3CCB1E976D3E002A8B01 /* HPRankingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 240E3CC91E976D3E002A8B01 /* HPRankingViewController.xib */; };
+		240E3CCE1E976D79002A8B01 /* HPWalkPetRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E3CCC1E976D79002A8B01 /* HPWalkPetRecordsViewController.swift */; };
+		240E3CCF1E976D79002A8B01 /* HPWalkPetRecordsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 240E3CCD1E976D79002A8B01 /* HPWalkPetRecordsViewController.xib */; };
+		240E3CD11E986A97002A8B01 /* HPNetWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E3CD01E986A97002A8B01 /* HPNetWorker.swift */; };
+		240E3CD31E98B746002A8B01 /* HPHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E3CD21E98B746002A8B01 /* HPHUD.swift */; };
+		2411E8101E9B255C003C6376 /* HPRequestBodyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2411E80F1E9B255C003C6376 /* HPRequestBodyInfo.swift */; };
+		24451C0C1E96292000A76E26 /* HPConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24451C091E96292000A76E26 /* HPConstant.swift */; };
 		247484661E909241006BA1E7 /* HPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247484641E909241006BA1E7 /* HPLoginViewController.swift */; };
 		247484671E909241006BA1E7 /* HPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247484651E909241006BA1E7 /* HPLoginViewController.xib */; };
-		247484691E9096C0006BA1E7 /* HPConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247484681E9096C0006BA1E7 /* HPConstant.swift */; };
 		2474846C1E90990B006BA1E7 /* HPMainTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2474846B1E90990B006BA1E7 /* HPMainTabBarControllerViewController.swift */; };
 		247484731E909F27006BA1E7 /* HPPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247484711E909F27006BA1E7 /* HPPetViewController.swift */; };
 		247484741E909F27006BA1E7 /* HPPetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247484721E909F27006BA1E7 /* HPPetViewController.xib */; };
@@ -25,6 +34,7 @@
 		24766B6C1E8FA3C2003649D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24766B601E8FA3C2003649D6 /* Assets.xcassets */; };
 		24766B8C1E8FA3E8003649D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24766B831E8FA3E8003649D6 /* LaunchScreen.storyboard */; };
 		24766B8E1E8FA77C003649D6 /* loginImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 24766B8D1E8FA77C003649D6 /* loginImage.png */; };
+		D5DBDC346084222302664203 /* Pods_HalloPet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6859CB5D51ABFBA2ADF3569 /* Pods_HalloPet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +55,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		240E3CC41E974018002A8B01 /* HPFriendsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPFriendsTableViewCell.swift; sourceTree = "<group>"; };
+		240E3CC51E974018002A8B01 /* HPFriendsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPFriendsTableViewCell.xib; sourceTree = "<group>"; };
+		240E3CC81E976D3E002A8B01 /* HPRankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPRankingViewController.swift; sourceTree = "<group>"; };
+		240E3CC91E976D3E002A8B01 /* HPRankingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPRankingViewController.xib; sourceTree = "<group>"; };
+		240E3CCC1E976D79002A8B01 /* HPWalkPetRecordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPWalkPetRecordsViewController.swift; sourceTree = "<group>"; };
+		240E3CCD1E976D79002A8B01 /* HPWalkPetRecordsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPWalkPetRecordsViewController.xib; sourceTree = "<group>"; };
+		240E3CD01E986A97002A8B01 /* HPNetWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPNetWorker.swift; sourceTree = "<group>"; };
+		240E3CD21E98B746002A8B01 /* HPHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPHUD.swift; sourceTree = "<group>"; };
+		2411E80F1E9B255C003C6376 /* HPRequestBodyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPRequestBodyInfo.swift; sourceTree = "<group>"; };
+		24451C091E96292000A76E26 /* HPConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPConstant.swift; sourceTree = "<group>"; };
 		247484641E909241006BA1E7 /* HPLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPLoginViewController.swift; sourceTree = "<group>"; };
 		247484651E909241006BA1E7 /* HPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPLoginViewController.xib; sourceTree = "<group>"; };
-		247484681E9096C0006BA1E7 /* HPConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPConstant.swift; sourceTree = "<group>"; };
 		2474846B1E90990B006BA1E7 /* HPMainTabBarControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPMainTabBarControllerViewController.swift; sourceTree = "<group>"; };
 		247484711E909F27006BA1E7 /* HPPetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPPetViewController.swift; sourceTree = "<group>"; };
 		247484721E909F27006BA1E7 /* HPPetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPPetViewController.xib; sourceTree = "<group>"; };
@@ -69,6 +88,9 @@
 		24766B601E8FA3C2003649D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24766B841E8FA3E8003649D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24766B8D1E8FA77C003649D6 /* loginImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginImage.png; sourceTree = "<group>"; };
+		923AFFE1BDA00CB5AA8D316F /* Pods-HalloPet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalloPet.release.xcconfig"; path = "Pods/Target Support Files/Pods-HalloPet/Pods-HalloPet.release.xcconfig"; sourceTree = "<group>"; };
+		9DD7EBD21F27180D5CE37048 /* Pods-HalloPet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalloPet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HalloPet/Pods-HalloPet.debug.xcconfig"; sourceTree = "<group>"; };
+		E6859CB5D51ABFBA2ADF3569 /* Pods_HalloPet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalloPet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5DBDC346084222302664203 /* Pods_HalloPet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +119,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2411E80E1E9B24B4003C6376 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2411E80F1E9B255C003C6376 /* HPRequestBodyInfo.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		24451C081E96292000A76E26 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				24451C091E96292000A76E26 /* HPConstant.swift */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		245AAFFD1E9B091D00E5983F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2411E80E1E9B24B4003C6376 /* DataModel */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		2474846D1E909F0A006BA1E7 /* Pet */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +158,10 @@
 			children = (
 				247484711E909F27006BA1E7 /* HPPetViewController.swift */,
 				247484721E909F27006BA1E7 /* HPPetViewController.xib */,
+				240E3CC81E976D3E002A8B01 /* HPRankingViewController.swift */,
+				240E3CC91E976D3E002A8B01 /* HPRankingViewController.xib */,
+				240E3CCC1E976D79002A8B01 /* HPWalkPetRecordsViewController.swift */,
+				240E3CCD1E976D79002A8B01 /* HPWalkPetRecordsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -158,6 +209,8 @@
 		2474847A1E90A118006BA1E7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				240E3CC41E974018002A8B01 /* HPFriendsTableViewCell.swift */,
+				240E3CC51E974018002A8B01 /* HPFriendsTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +255,8 @@
 				24766B451E8FA2D2003649D6 /* HalloPetTests */,
 				24766B501E8FA2D2003649D6 /* HalloPetUITests */,
 				24766B2C1E8FA2D1003649D6 /* Products */,
+				89D0E234EED67DE9551CE4EA /* Pods */,
+				78062228290E2D34E1B86FBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,11 +274,13 @@
 			isa = PBXGroup;
 			children = (
 				24766B2E1E8FA2D1003649D6 /* HPAppDelegate.swift */,
+				24766B7B1E8FA3E8003649D6 /* Main */,
+				245AAFFD1E9B091D00E5983F /* Network */,
 				24766B731E8FA3E8003649D6 /* Login */,
 				2474846D1E909F0A006BA1E7 /* Pet */,
 				247484771E90A118006BA1E7 /* Friends */,
 				2474847B1E90A118006BA1E7 /* Mine */,
-				24766B7B1E8FA3E8003649D6 /* Main */,
+				24451C081E96292000A76E26 /* Defines */,
 				24766B821E8FA3E8003649D6 /* Other */,
 				24766B5F1E8FA3C2003649D6 /* Resource */,
 				24766B611E8FA3C2003649D6 /* Tools */,
@@ -260,6 +317,8 @@
 		24766B611E8FA3C2003649D6 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				240E3CD01E986A97002A8B01 /* HPNetWorker.swift */,
+				240E3CD21E98B746002A8B01 /* HPHUD.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -337,9 +396,25 @@
 				24766B831E8FA3E8003649D6 /* LaunchScreen.storyboard */,
 				24766B8D1E8FA77C003649D6 /* loginImage.png */,
 				24766B351E8FA2D1003649D6 /* HalloPet.xcdatamodeld */,
-				247484681E9096C0006BA1E7 /* HPConstant.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		78062228290E2D34E1B86FBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6859CB5D51ABFBA2ADF3569 /* Pods_HalloPet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89D0E234EED67DE9551CE4EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7EBD21F27180D5CE37048 /* Pods-HalloPet.debug.xcconfig */,
+				923AFFE1BDA00CB5AA8D316F /* Pods-HalloPet.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,9 +424,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24766B561E8FA2D2003649D6 /* Build configuration list for PBXNativeTarget "HalloPet" */;
 			buildPhases = (
+				CFB5998FBE58CCC6256157FE /* [CP] Check Pods Manifest.lock */,
 				24766B271E8FA2D1003649D6 /* Sources */,
 				24766B281E8FA2D1003649D6 /* Frameworks */,
 				24766B291E8FA2D1003649D6 /* Resources */,
+				DEFEE6860B198ED77C2E3426 /* [CP] Embed Pods Frameworks */,
+				99C991FB82B21BB33DC3868C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -412,6 +490,7 @@
 					24766B2A1E8FA2D1003649D6 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 8JUQ8R9527;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					24766B411E8FA2D2003649D6 = {
@@ -454,11 +533,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				24766B8E1E8FA77C003649D6 /* loginImage.png in Resources */,
+				240E3CC71E974018002A8B01 /* HPFriendsTableViewCell.xib in Resources */,
 				247484861E90A13F006BA1E7 /* HPMineViewController.xib in Resources */,
 				247484741E909F27006BA1E7 /* HPPetViewController.xib in Resources */,
+				240E3CCB1E976D3E002A8B01 /* HPRankingViewController.xib in Resources */,
 				247484821E90A131006BA1E7 /* HPFriendsViewController.xib in Resources */,
 				24766B8C1E8FA3E8003649D6 /* LaunchScreen.storyboard in Resources */,
 				247484671E909241006BA1E7 /* HPLoginViewController.xib in Resources */,
+				240E3CCF1E976D79002A8B01 /* HPWalkPetRecordsViewController.xib in Resources */,
 				24766B6C1E8FA3C2003649D6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,20 +561,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99C991FB82B21BB33DC3868C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HalloPet/Pods-HalloPet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB5998FBE58CCC6256157FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEFEE6860B198ED77C2E3426 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HalloPet/Pods-HalloPet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24766B271E8FA2D1003649D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2474848A1E90A1C4006BA1E7 /* HPBaseNavigationController.swift in Sources */,
+				240E3CD31E98B746002A8B01 /* HPHUD.swift in Sources */,
+				240E3CC61E974018002A8B01 /* HPFriendsTableViewCell.swift in Sources */,
 				247484811E90A131006BA1E7 /* HPFriendsViewController.swift in Sources */,
-				247484691E9096C0006BA1E7 /* HPConstant.swift in Sources */,
 				2474846C1E90990B006BA1E7 /* HPMainTabBarControllerViewController.swift in Sources */,
 				24766B2F1E8FA2D1003649D6 /* HPAppDelegate.swift in Sources */,
 				247484661E909241006BA1E7 /* HPLoginViewController.swift in Sources */,
+				24451C0C1E96292000A76E26 /* HPConstant.swift in Sources */,
 				247484851E90A13F006BA1E7 /* HPMineViewController.swift in Sources */,
+				240E3CCE1E976D79002A8B01 /* HPWalkPetRecordsViewController.swift in Sources */,
+				240E3CCA1E976D3E002A8B01 /* HPRankingViewController.swift in Sources */,
 				247484731E909F27006BA1E7 /* HPPetViewController.swift in Sources */,
+				2411E8101E9B255C003C6376 /* HPRequestBodyInfo.swift in Sources */,
 				24766B371E8FA2D1003649D6 /* HalloPet.xcdatamodeld in Sources */,
+				240E3CD11E986A97002A8B01 /* HPNetWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,28 +768,35 @@
 		};
 		24766B571E8FA2D2003649D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DD7EBD21F27180D5CE37048 /* Pods-HalloPet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8JUQ8R9527;
 				INFOPLIST_FILE = HalloPet/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sawyer.HalloPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		24766B581E8FA2D2003649D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923AFFE1BDA00CB5AA8D316F /* Pods-HalloPet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8JUQ8R9527;
 				INFOPLIST_FILE = HalloPet/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sawyer.HalloPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

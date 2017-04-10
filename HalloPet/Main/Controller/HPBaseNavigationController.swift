@@ -15,13 +15,14 @@ class HPBaseNavigationController: UINavigationController {
         let navBar = UINavigationBar.appearance()
         
         //设置主标题属性
-        navBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(red: 247 / 255.0, green: 186 / 255.0, blue: 86 / 255.0, alpha: 1.0), NSFontAttributeName: UIFont.systemFont(ofSize: 18)]
+        navBar.titleTextAttributes = [NSForegroundColorAttributeName: hexStringToUIColor(hex: "#F0F0F0"), NSFontAttributeName: UIFont.systemFont(ofSize: 18)]
         
         //设置返回按钮颜色
-        navBar.tintColor = UIColor(red: 75 / 255.0, green: 75 / 255.0, blue: 75 / 255.0, alpha: 1.0)
+        navBar.tintColor = hexStringToUIColor(hex: "#F0F0F0")
         
         //设置背景图片
-        navBar.setBackgroundImage(UIImage(named: "navbarBackgroundImage"), for: .default)
+        navBar.setBackgroundImage(createImageWithColor(color: hexStringToUIColor(hex: "#FA794B")), for: .default)
+
     }
     
     //MARK: - 其他方法
