@@ -21,7 +21,7 @@ class HPDelegate: UIResponder, UIApplicationDelegate {
          目前设置的是每次重新启动都要输入密码，所以启动时候的根控制器都是登录控制器。
          */
         window = UIWindow.init(frame:UIScreen.main.bounds)
-       window?.backgroundColor = UIColor.red
+        window?.backgroundColor = UIColor.red
         window?.rootViewController = HPLoginViewController()
         window?.makeKeyAndVisible()
         
